@@ -1,6 +1,8 @@
 import time, keyboard, webbrowser, pyautogui, pyperclip
 from selenium import webdriver
 from pynput.keyboard import Key, Controller
+import lxml.html as lh
+import lxml.html.clean as clean
 keyboard = Controller()
 
 # input the airport list in list_depart and list_destination, and also the complete names in dico_corresp. 
@@ -14,7 +16,8 @@ dico_corresp = {"DUB":"dublin",
                 "NAP":"naples",
                 "PMO":"palerme",
                 "CAG":"cagliari",
-                "CLY":"calvi"}
+                "CLY":"calvi",
+                "TLV":"tel aviv"}
 
 list_depart = ["CDG","ORY"] #from where we want to fly 
 list_destination = ["DUB","BCN","PMO"] #where we may want to go
@@ -40,8 +43,13 @@ for aeroport_depart in list_depart: #we start with the first departure airport, 
 
         # open google flights in firefox, go to the url with all the parameters, and scroll down a bit so that we can access the flights and copy them
         url = 'https://www.google.fr/flights/#flt='+ aero_depart +"."+ aero_arrivee + "."+ date_depart+"*"+aero_arrivee+"."+aero_depart +"." + date_retour +";c:EUR;e:1;s:0*0;dt:"+heure_depart+";at:"+heure_retour+";sd:1;t:f"
-        browser = webdriver.Firefox()
+        #browser = webdriver.Firefox()
+        browser = webdriver.Chrome()
         browser.get(url)
+        content=browser.page_source
+        cleaner=clean.Cleaner()
+        content=cleaner.clean_html(content) 
+        doc=lh.fromstring(content)
         time.sleep(3)
         pyautogui.press('down')
         pyautogui.press('down')
@@ -106,7 +114,7 @@ for sublist in final_list_before_question:
 
 
 #open google sheets
-browser = webdriver.Firefox()
+browser = webdriver.Chrome()
 browser.get('https://docs.google.com/spreadsheets/d/14vG9O1Q3MCNytqJZJwPN8xdvP9mCJQTGws3sDJV9I-4/edit?usp=sharing')
 time.sleep(7) #wait for it to load
 
