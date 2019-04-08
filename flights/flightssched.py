@@ -4,6 +4,8 @@ from pynput.keyboard import Key, Controller
 import lxml.html as lh
 import lxml.html.clean as clean
 keyboard = Controller()
+import requests
+from bs4 import BeautifulSoup
 
 # input the airport list in list_depart and list_destination, and also the complete names in dico_corresp. 
 # input the dates and hours in the loop below
@@ -44,12 +46,18 @@ for aeroport_depart in list_depart: #we start with the first departure airport, 
         # open google flights in firefox, go to the url with all the parameters, and scroll down a bit so that we can access the flights and copy them
         url = 'https://www.google.fr/flights/#flt='+ aero_depart +"."+ aero_arrivee + "."+ date_depart+"*"+aero_arrivee+"."+aero_depart +"." + date_retour +";c:EUR;e:1;s:0*0;dt:"+heure_depart+";at:"+heure_retour+";sd:1;t:f"
         #browser = webdriver.Firefox()
-        browser = webdriver.Chrome()
+        try:
+            browser = webdriver.Chrome()
+        except:
+            browser = webdriver.Chrome('C:\\Users\\gila\\AppData\\Local\\Google\\Chrome\\chromedriver.exe')
+
         browser.get(url)
         content=browser.page_source
         cleaner=clean.Cleaner()
         content=cleaner.clean_html(content) 
         doc=lh.fromstring(content)
+
+        soup = BeautifulSoup(html_doc, 'html.parser')
         time.sleep(3)
         pyautogui.press('down')
         pyautogui.press('down')
