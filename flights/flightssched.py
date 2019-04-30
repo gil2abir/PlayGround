@@ -57,7 +57,8 @@ for aeroport_depart in list_depart: #we start with the first departure airport, 
         content=cleaner.clean_html(content) 
         doc=lh.fromstring(content)
 
-        soup = BeautifulSoup(html_doc, 'html.parser')
+        #soup = BeautifulSoup(content, 'html.parser')
+        soup = BeautifulSoup(content, 'lxml')
         time.sleep(3)
         pyautogui.press('down')
         pyautogui.press('down')
