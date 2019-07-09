@@ -1,4 +1,8 @@
 {
     "python.linting.pylintEnabled": true,
+<<<<<<< HEAD
     "python.pythonPath": "/home/gilac/anaconda3/envs/SandBox2/bin/python"
+=======
+    "python.pythonPath": "C:\\Users\\gila\\AppData\\Local\\Continuum\\anaconda3\\python.exe"
+>>>>>>> bd4675480568df4846f2d9b69836019957077216
 }
