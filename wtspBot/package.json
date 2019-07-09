@@ -1,0 +1,36 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "wikibot",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.3",
+    "localtunnel": "^1.9.2",
+    "request": "^2.88.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^2.0.2",
+    "twilio": "^4.6.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "serverless-offline": "^5.6.0"
+  }
+}

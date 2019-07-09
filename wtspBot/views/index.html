@@ -1,0 +1,68 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CavalierBot</title>
+    <meta name="description" content="Services for WhatsApp, by Cavalier">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/737193ad-14e1-478d-94da-c41571373b77%2Frobot-face_1f916.png?1535460717284" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align:center">
+        Cavalier Services <span class="text-grey">for WhatsApp</span> <br>🤖 📜 💬
+      </h1>
+
+    </header>
+
+    <main style="text-align:center">
+     <!--<img class="logo" src="/images/bot.jpg" alt="My_Logo" style="width:100%; max-width:600px; margin-bottom:1em">-->
+      <img src="https://express-app-dev-serverlessdeploymentbucket-131tpf9yelo59.s3.amazonaws.com/resources/wtspBot/images/index_welcome.png" style="width:100%; max-width:600px; margin-bottom:1em">
+      <p>
+        For now, I only retrieve information from Wikipedia. WhatsApp any term to <span class="text-grey">Cavalier 🤖</span> and get a reply with a summary from its WikiPedia page.
+      </p>
+      <br>
+      <p>
+        Get it at 👉 <a href="http://bit.ly/2LKr1XW">Cavalier</a>
+      </p>
+      <br>
+      <p>
+        You will be redirected to whatsapp, with a signup text 
+        <br>
+        <code> "join owner-different" </code> ready to be sent.
+      <br>
+        Then, just send <code>Hi</code> and you are good to go!
+      </p>
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+
+    <footer style="text-align:center">
+      👨‍💻 Made by <a href="https://github.com/gil2abir">@Cavalier</a><br><br>
+      <a href="https://github.com/gil2abir"><img src="https://icongr.am/fontawesome/github.svg?size=20" style="vertical-align"></a>
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
