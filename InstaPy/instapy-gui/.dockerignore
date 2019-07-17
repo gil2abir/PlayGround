@@ -1,0 +1,8 @@
+assets
+src
+.git
+**/node_modules
+**/package-lock.json
+**/.DS_Store
+**/__pycache__
+**/*.pyc

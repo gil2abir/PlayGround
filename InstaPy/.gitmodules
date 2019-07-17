@@ -1,0 +1,9 @@
+[submodule "instapy-quickstart"]
+	path = instapy-quickstart
+	url = https://github.com/InstaPy/instapy-quickstart.git
+[submodule "instapy-dashboard"]
+	path = instapy-dashboard
+	url = https://github.com/converge/instapy-dashboard.git
+[submodule "instapy-gui"]
+	path = instapy-gui
+	url = https://github.com/breuerfelix/instapy-gui.git

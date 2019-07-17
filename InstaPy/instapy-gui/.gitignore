@@ -1,0 +1,33 @@
+# secrets
+.env
+*.env
+.secret
+
+# build output
+dist
+
+# python
+__pycache__
+*.pyc
+
+# node
+package-lock.json
+npm-debug.log
+node_modules
+
+# dev environment
+dev/**/*
+
+# IDE
+.idea
+.vscode
+.vs
+
+# jupyter
+.ipynb_checkpoints
+
+# mac
+.DS_Store
+
+# instapy
+assets

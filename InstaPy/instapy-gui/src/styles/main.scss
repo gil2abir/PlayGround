@@ -1,0 +1,98 @@
+$main-bg: #f2f3fa;
+$white: #ffffff;
+$header-height: 55px;
+
+$sb-font: 'Roboto', sans-serif;
+$primary-sb: #314860;
+
+//sidebar
+$sb-width: 230px;
+$sb-font-color: darken($white, 25%);
+$sb-highlight-item: lighten($primary-sb, 15%);
+$sb-bg-submenu: darken($primary-sb, 5%);
+
+//$sb-highlight-font-color: #1ab491;
+//$sb-highlight-font-color: rgb(252, 85, 114);
+$sb-highlight-font-color: $white;
+
+$border-radius: 2px;
+$border-radius-card: $border-radius;
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	background-color: $main-bg;
+	font-family: $sb-font;
+	font-weight: 400;
+	font-variant: tabular-nums;
+	font-feature-settings: 'tnum';
+	-webkit-font-feature-settings: 'tnum';
+	-webkit-font-smoothing: antialiased;
+}
+
+// custom style for select boxes
+select {
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+	background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+		 -khtml-user-select: none; /* Konqueror HTML */
+			 -moz-user-select: none; /* Firefox */
+				-ms-user-select: none; /* Internet Explorer/Edge */
+						user-select: none; /* Non-prefixed version, currently
+																	supported by Chrome and Opera */
+}
+
+.btn {
+	border-radius: 1px;
+}
+
+.card {
+	border-radius: $border-radius !important;
+
+	.card-header, .card-footer {
+		background-color: $white;
+	}
+}
+
+.modal-content {
+	border-radius: $border-radius !important;
+}
+
+.react-tagsinput, input, textarea, select {
+	border-radius: $border-radius !important;
+}
+
+.react-tagsinput.is-invalid {
+	border-color: #dc3545;
+}
+
+.col, .col-xs, .col-sm, .col-md, .col-lg, .col-xl {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.no-gutters {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col-padding {
+	padding: 10px;
+}
+
+@import 'sidebar';
+@import 'navbar';
+@import 'login';
+@import 'configuration';
+@import 'console';
