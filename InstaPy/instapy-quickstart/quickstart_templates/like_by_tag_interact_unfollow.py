@@ -4,14 +4,25 @@ This template is written by @timgrossmann
 What does this quickstart script aim to do?
 - This script is automatically executed every 6h on my server via cron
 """
-
+# imports
+import sys
+import os.path
 import random
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+from instapy import set_workspace
+from instapy import get_workspace
+
 from instapy import InstaPy
 from instapy import smart_run
+from dotenv import load_dotenv
+load_dotenv('..env')
+set_workspace(path=os.getenv('PATH_INSTA'))
 
 # login credentials
-insta_username = ''
-insta_password = ''
+insta_username = os.getenv('INSTAPY_USER')
+insta_password = os.getenv('INSTAPY_PASSWORD')
+
 
 dont_likes = ['sex', 'nude', 'naked', 'beef', 'pork', 'seafood',
               'egg', 'chicken', 'cheese', 'sausage', 'lobster',

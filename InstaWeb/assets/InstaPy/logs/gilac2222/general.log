@@ -1,0 +1,119 @@
+INFO [2019-08-17 11:55:36] [gilac2222]  Using built in instapy-chromedriver executable (version 2.46)
+INFO [2019-08-17 11:55:38] [gilac2222]  Session started!
+INFO [2019-08-17 11:56:33] [gilac2222]  Using built in instapy-chromedriver executable (version 2.46)
+INFO [2019-08-17 11:56:35] [gilac2222]  Session started!
+INFO [2019-08-17 11:57:53] [gilac2222]  Using built in instapy-chromedriver executable (version 2.46)
+INFO [2019-08-17 11:57:55] [gilac2222]  Session started!
+INFO [2019-08-17 11:58:57] [gilac2222]  Logged in successfully!
+INFO [2019-08-17 11:58:57] [gilac2222]  Saving account progress...
+INFO [2019-08-17 11:59:02] [gilac2222]  Tag [1/1]
+INFO [2019-08-17 11:59:02] [gilac2222]  --> b'\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d'
+INFO [2019-08-17 11:59:11] [gilac2222]  desired amount: 50  |  top posts [disabled]: 9  |  possible posts: 40207
+INFO [2019-08-17 11:59:28] [gilac2222]  Like# [1/50]
+INFO [2019-08-17 11:59:28] [gilac2222]  https://www.instagram.com/p/B1PbzXXhSXI/
+INFO [2019-08-17 11:59:32] [gilac2222]  Image from: b'elenanovikova2101'
+INFO [2019-08-17 11:59:32] [gilac2222]  Link: b'https://www.instagram.com/p/B1PbzXXhSXI/'
+INFO [2019-08-17 11:59:33] [gilac2222]  Description: b'\xd0\xad\xd1\x82\xd0\xbe \xd0\xbd\xd0\xb5\xd0\xb2\xd0\xbe\xd0\xb7\xd0\xbc\xd0\xbe\xd0\xb6\xd0\xbd\xd0\xbe \xd0\xb2\xd0\xb8\xd0\xb4\xd0\xb5\xd1\x82\xd1\x8c!!!\n\xd0\xa3\xd0\xb1\xd0\xbb\xd1\x8e\xd0\xb4\xd0\xba\xd0\xb8!!!\n\xd0\xa1\xd0\xb4\xd0\xbe\xd1\x85\xd0\xbd\xd0\xb8\xd1\x82\xd0\xb5 \xd0\xbe\xd1\x82 \xd1\x80\xd0\xb0\xd0\xba\xd0\xb0 \xd0\xb8 \xd0\xbf\xd1\x83\xd1\x81\xd1\x82\xd1\x8c \xd0\xb2\xd0\xb5\xd1\x81\xd1\x8c \xd0\xb2\xd0\xb0\xd1\x88 \xd0\xb6\xd0\xb8\xd0\xb2\xd0\xbe\xd0\xb4\xd1\x91\xd1\x80\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd1\x80\xd0\xbe\xd0\xb4 \xd1\x81\xd0\xb4\xd0\xbe\xd1\x85\xd0\xbd\xd0\xb5\xd1\x82 \xd1\x81\xd1\x80\xd0\xb0\xd0\xb7\xd1\x83 \xd0\xb7\xd0\xb0 \xd0\xb2\xd0\xb0\xd0\xbc\xd0\xb8 \xd0\xbe\xd1\x82 \xd1\x80\xd0\xb0\xd0\xba\xd0\xb0.\n#Repost @roeeshpernik\n\xe2\x80\xa2 \xe2\x80\xa2 \xe2\x80\xa2 \xe2\x80\xa2 \xe2\x80\xa2 \xe2\x80\xa2\nif you eat meat \nyou pay for the same cruel actions.\n#doggystyle\xf0\x9f\x90\xb6 #dogofinstagram #dogsrule #pomeraniandogs #sausagedogcentral #ilovemydog #do\xc4\x9fa #dogi #doggroomer #dogdogdog #dog_features #doglover #instadog #doggie #\xd7\x9b\xd7\x9c\xd7\x91 #\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d'
+INFO [2019-08-17 11:59:43] [gilac2222]  --> Image Liked!
+INFO [2019-08-17 11:59:46] [gilac2222]  --> Not commented
+INFO [2019-08-17 11:59:48] [gilac2222]  --> Not following
+INFO [2019-08-17 11:59:49] [gilac2222]  --> User gonna be interacted: 'elenanovikova2101'
+INFO [2019-08-17 11:59:50] [gilac2222]  Username [1/1]
+INFO [2019-08-17 11:59:50] [gilac2222]  --> b'elenanovikova2101'
+INFO [2019-08-17 11:59:51] [gilac2222]  Getting elenanovikova2101 image list...
+INFO [2019-08-17 11:59:54] [gilac2222]  --> Not following
+INFO [2019-08-17 11:59:56] [gilac2222]  User: b'elenanovikova2101'
+INFO [2019-08-17 11:59:56] [gilac2222]  Liked: 0
+INFO [2019-08-17 11:59:57] [gilac2222]  Already Liked: 0
+INFO [2019-08-17 11:59:57] [gilac2222]  Commented: 0
+INFO [2019-08-17 11:59:58] [gilac2222]  Inappropriate: 0
+INFO [2019-08-17 11:59:58] [gilac2222]  Not valid users: 0
+
+INFO [2019-08-17 11:59:59] [gilac2222]  Like# [2/50]
+INFO [2019-08-17 12:00:00] [gilac2222]  https://www.instagram.com/p/B0acHLcFXFw/
+INFO [2019-08-17 12:00:04] [gilac2222]  Image from: b'louie_pom_'
+INFO [2019-08-17 12:00:04] [gilac2222]  Link: b'https://www.instagram.com/p/B0acHLcFXFw/'
+INFO [2019-08-17 12:00:05] [gilac2222]  Description: b'Have a great day \xe2\x9d\xa4\xef\xb8\x8f\xe2\x9d\xa4\xef\xb8\x8f\xe2\x9d\xa4\xef\xb8\x8f\n.\n.\n#\xd7\x97\xd7\x99\xd7\xa4\xd7\x94 #\xd7\xaa\xd7\x9c\xd7\x90\xd7\x91\xd7\x99\xd7\x91 #tlv #israel #dogsofinsta #\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d #\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d\xd7\x99\xd7\xa9\xd7\xa8\xd7\x90\xd7\x9c #\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d\xd7\x9e\xd7\xa4\xd7\x95\xd7\xa0\xd7\xa7\xd7\x99\xd7\x9d #\xd7\xa4\xd7\x95\xd7\x9e\xd7\xa8\xd7\xa0\xd7\x99\xd7\x90\xd7\x9f\xd7\x96\xd7\x94\xd7\x90\xd7\x94\xd7\x91\xd7\x94\xe2\x9d\xa4\xef\xb8\x8f #\xd7\xa4\xd7\x95\xd7\x9e\xd7\xa8\xd7\xa0\xd7\x99\xd7\x90\xd7\x9f #photooftheday #photographer #photography #modeling #model #\xd7\x93\xd7\x95\xd7\x92\xd7\x9e\xd7\x9f #lionking  #simba #modeling #shooting #\xd7\xa9\xd7\x91\xd7\xaa\xd7\xa9\xd7\x9c\xd7\x95\xd7\x9d\xe2\x9d\xa4\xef\xb8\x8f #\xd7\xa9\xd7\x91\xd7\xaa #\xd7\xa9\xd7\x91\xd7\xaa\xd7\xa9\xd7\x9c\xd7\x95\xd7\x9d'
+INFO [2019-08-17 12:00:05] [gilac2222]  Location: b'Haifa, Israel'
+INFO [2019-08-17 12:00:15] [gilac2222]  --> Image Liked!
+INFO [2019-08-17 12:00:18] [gilac2222]  --> Not commented
+INFO [2019-08-17 12:00:19] [gilac2222]  --> Not following
+INFO [2019-08-17 12:00:21] [gilac2222]  --> User gonna be interacted: 'louie_pom_'
+INFO [2019-08-17 12:00:22] [gilac2222]  Username [1/1]
+INFO [2019-08-17 12:00:22] [gilac2222]  --> b'louie_pom_'
+INFO [2019-08-17 12:00:23] [gilac2222]  Getting louie_pom_ image list...
+INFO [2019-08-17 12:00:27] [gilac2222]  --> Not following
+INFO [2019-08-17 12:00:28] [gilac2222]  User: b'louie_pom_'
+INFO [2019-08-17 12:00:28] [gilac2222]  Liked: 0
+INFO [2019-08-17 12:00:29] [gilac2222]  Already Liked: 0
+INFO [2019-08-17 12:00:29] [gilac2222]  Commented: 0
+INFO [2019-08-17 12:00:30] [gilac2222]  Inappropriate: 0
+INFO [2019-08-17 12:00:30] [gilac2222]  Not valid users: 0
+
+INFO [2019-08-17 12:00:31] [gilac2222]  Like# [3/50]
+INFO [2019-08-17 12:00:31] [gilac2222]  https://www.instagram.com/p/B1Qlm_dJTNZ/
+INFO [2019-08-17 12:00:36] [gilac2222]  Image from: b'morderzon'
+INFO [2019-08-17 12:00:36] [gilac2222]  Link: b'https://www.instagram.com/p/B1Qlm_dJTNZ/'
+INFO [2019-08-17 12:00:37] [gilac2222]  Description: b'\xd0\x9f\xd1\x91\xd1\x81-\xd0\xbc\xd1\x81\xd1\x82\xd0\xb8\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb4\xd0\xbe\xd0\xbb\xd0\xb6\xd0\xb0\xd0\xb5\xd1\x82 \xd1\x81\xd0\xb5\xd1\x80\xd0\xb8\xd1\x8e \xd1\x80\xd0\xb0\xd0\xb7\xd1\x80\xd1\x83\xd1\x88\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb9 #sheltie #shelties #animals #doggy #\xd7\x9b\xd7\x9c\xd7\x91 #\xd7\x9b\xd7\x9c\xd7\x91\xd7\x99\xd7\x9d #dog #dogsofinstagram #dogs #instagramdogs #instapuppy #instagramanet #instatag #dogstagram #doglover #doggy #dogs_of_instagram #dogsitting #doggie #doglovers #dogsofig #doglife #doglove #dogscorner #dogslife #doggies #pup #pet #pets #ilovemydog #puppy'
+INFO [2019-08-17 12:00:46] [gilac2222]  --> Image Liked!
+INFO [2019-08-17 12:00:49] [gilac2222]  --> Not commented
+INFO [2019-08-17 12:00:51] [gilac2222]  --> Not following
+INFO [2019-08-17 12:00:53] [gilac2222]  --> User gonna be interacted: 'morderzon'
+INFO [2019-08-17 12:00:53] [gilac2222]  Username [1/1]
+INFO [2019-08-17 12:00:54] [gilac2222]  --> b'morderzon'
+INFO [2019-08-17 12:00:54] [gilac2222]  Getting morderzon image list...
+INFO [2019-08-17 12:00:58] [gilac2222]  --> Not following
+INFO [2019-08-17 12:01:00] [gilac2222]  User: b'morderzon'
+INFO [2019-08-17 12:01:01] [gilac2222]  Liked: 0
+INFO [2019-08-17 12:01:01] [gilac2222]  Already Liked: 0
+INFO [2019-08-17 12:01:02] [gilac2222]  Commented: 0
+INFO [2019-08-17 12:01:02] [gilac2222]  Inappropriate: 0
+INFO [2019-08-17 12:01:03] [gilac2222]  Not valid users: 0
+
+INFO [2019-08-17 12:01:04] [gilac2222]  Like# [4/50]
+INFO [2019-08-17 12:01:04] [gilac2222]  https://www.instagram.com/p/B1PNyfZnv3M/
+ERROR [2019-08-17 12:01:05] [gilac2222]  Error occurred while deleting cookies from web browser!
+	b'Message: chrome not reachable\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)\n'
+Traceback (most recent call last):
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/instapy/util.py", line 1682, in smart_run
+    yield
+  File "bot.py", line 136, in <module>
+    getattr(session, job['functionName'])(**arguments)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/instapy/instapy.py", line 1875, in like_by_tags
+    self.logger)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/instapy/like_util.py", line 511, in check_link
+    web_address_navigator(browser, post_link)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/instapy/util.py", line 1047, in web_address_navigator
+    browser.get(link)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/instapy/browser.py", line 231, in close_browser
+    browser.delete_all_cookies()
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 878, in delete_all_cookies
+    self.execute(Command.DELETE_ALL_COOKIES)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gilac/anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+
+INFO [2019-08-17 12:01:06] [gilac2222]  Sessional Live Report:
+	|> No any statistics to show
+
+On session start was FOLLOWING 17 users & had 4 FOLLOWERS
+[Session lasted 3.21 minutes]
+INFO [2019-08-17 12:01:06] [gilac2222]  Session ended!
