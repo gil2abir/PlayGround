@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "env": {"GOOGLE_APPLICATION_CREDENTIALS": 
+                "/home/gilac/PlayGround/SECRETS/Cavalier2LTD-793d6d075108.json"},
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["/home/gilac/Downloads/00000000_2019-08-06 17.11.47_I_P180.mp3"]
+        }
+    ]
+}
