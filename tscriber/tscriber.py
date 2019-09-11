@@ -41,7 +41,6 @@ def sample_recognize(local_file_path):
     filename, file_extension = os.path.splitext(local_file_path)
     if not file_extension == '.wav':
         sound = AudioSegment.from_mp3(local_file_path)
-        sound.
         dst = filename + '.wav'
         sound.res
         sound.export(dst, format="wav")
