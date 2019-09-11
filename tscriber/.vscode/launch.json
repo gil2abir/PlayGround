@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "env": {"GOOGLE_APPLICATION_CREDENTIALS": 
-                "/home/gilac/PlayGround/SECRETS/Cavalier2LTD-793d6d075108.json"},
+                "C:/Code/PlayGround/SECRETS/cavalier2ltd-1ad0d89db69a.json"},
             "program": "${file}",
             "console": "integratedTerminal",
             "args": ["/home/gilac/Downloads/00000000_2019-08-06 17.11.47_I_P180.mp3"]
