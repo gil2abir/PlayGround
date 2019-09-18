@@ -8,6 +8,9 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 from pydub import AudioSegment
+from pathlib import Path
+import json
+import array as arr
 
 ##dotenv_path = join(dirname(__file__), 'SECRETS.env')
 ##load_dotenv(dotenv_path, verbose=True)
@@ -38,11 +41,14 @@ def sample_recognize(local_file_path):
     ##language_code = "en-US"
     language_code = "he-IL"
     # Loads the audio into memory
-    filename, file_extension = os.path.splitext(local_file_path)
+    locpath = Path(local_file_path)
+    filename = locpath.stem
+    file_extension = locpath.suffix
     if not file_extension == '.wav':
-        sound = AudioSegment.from_mp3(local_file_path)
-        dst = filename + '.wav'
-        sound.res
+        sound = AudioSegment.from_mp3(locpath)
+        sound = sound[:30*1000]
+        dst = os.path.splitext(local_file_path)[0]+'.wav'
+        #sound = sound.set_frame_rate(4000)
         sound.export(dst, format="wav")
         local_file_path = dst
     else:
@@ -54,14 +60,25 @@ def sample_recognize(local_file_path):
 
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
-        language_code='he-IL')
+        sample_rate_hertz=8000,
+        language_code='en-US')
 
     # Detects speech in the audio file
     response = client.recognize(config, audio)
-
+    #response = client.long_running_recognize(config, audio)
+    myfile = open('data/Transcript.txt', 'w')
     for result in response.results:
         print('Transcript: {}'.format(result.alternatives[0].transcript))
+        myfile.write("%s\n" % result.alternatives[0].transcript)
+    myfile.close()
+    
+    #Transcript = {
+    #    'filename': filename,
+    #    'Transcript': response.results
+    #}
+
+    #with open('data/Transcript.json', 'w') as json_file:
+    #    json.dump(Transcript, json_file)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description = 'Say hello')
