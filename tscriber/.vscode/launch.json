@@ -12,7 +12,7 @@
                 "C:/Code/PlayGround/SECRETS/cavalier2ltd-1ad0d89db69a.json"},
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["C:\\Code\\PlayGround\\tscriber\\data\\OUTBOUNDSAMPLE_01.mp3"]
+            "args": ["C:\\Code\\PlayGround\\tscriber\\data\\00000000_2019-09-19 08.42.32_O_P180.mp3"]
         }
     ]
 }

@@ -47,6 +47,7 @@ def sample_recognize(local_file_path):
     if not file_extension == '.wav':
         sound = AudioSegment.from_mp3(locpath)
         sound = sound[:30*1000]
+        fs = sound.frame_rate
         dst = os.path.splitext(local_file_path)[0]+'.wav'
         #sound = sound.set_frame_rate(4000)
         sound.export(dst, format="wav")
@@ -60,13 +61,13 @@ def sample_recognize(local_file_path):
 
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=8000,
-        language_code='en-US')
+        sample_rate_hertz=fs,
+        language_code='he-IL')
 
     # Detects speech in the audio file
     response = client.recognize(config, audio)
     #response = client.long_running_recognize(config, audio)
-    myfile = open('data/Transcript.txt', 'w')
+    myfile = open('data/' + filename + '_Transcript.txt', 'w', encoding='utf-8')
     for result in response.results:
         print('Transcript: {}'.format(result.alternatives[0].transcript))
         myfile.write("%s\n" % result.alternatives[0].transcript)
