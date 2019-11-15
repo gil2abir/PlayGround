@@ -1,3 +1,9 @@
 [submodule "bigdata18"]
 	path = bigdata18
 	url = https://github.com/hfawaz/bigdata18.git
+[submodule "Real-Time-Voice-Cloning"]
+	path = Real-Time-Voice-Cloning
+	url = https://github.com/CorentinJ/Real-Time-Voice-Cloning.git
+[submodule "SinGAN\\"]
+	path = SinGAN\\
+	url = https://github.com/tamarott/SinGAN.git

@@ -1,0 +1,16 @@
+__pycache__
+.ipynb_checkpoints/
+.idea/
+
+trash/
+Notes/
+Data/
+Photographer/Data/
+Annotator/via-3.0.4
+Annotator/sampled_frames
+Detector/labels/
+Detector/experiments/
+Detector/tmp/
+Tracker/track_data
+Tracker/tmp
+Analyzer/tmp
